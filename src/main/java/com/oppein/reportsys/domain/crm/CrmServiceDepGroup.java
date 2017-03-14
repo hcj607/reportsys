@@ -8,9 +8,9 @@ import javax.persistence.*;
  * The persistent class for the crm_service_dep_group database table.
  * 
  */
-//@Entity
-//@Table(name="crm_service_dep_group")
-//@NamedQuery(name="CrmServiceDepGroup.findAll", query="SELECT c FROM CrmServiceDepGroup c")
+@Entity
+@Table(name="crm_service_dep_group")
+@NamedQuery(name="CrmServiceDepGroup.findAll", query="SELECT c FROM CrmServiceDepGroup c")
 public class CrmServiceDepGroup implements Serializable {
 	private static final long serialVersionUID = 1L;
 
